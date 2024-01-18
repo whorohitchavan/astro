@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    }
+    
+    body {
+    background: white;
+    }
+    
+    .container {
+    min-height: calc(100vh);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 0px;
+    overflow: hidden;
+    }
+    
+    .login-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+    }
+    
+    .login-right img {
+    width: 100%;
+    }
+    
+    .login-header {
+    margin-bottom: 30px;
+    }
+    
+    .login-form {
+    width: 350px;
+    margin-top: 10px;
+    }
+    
+    .login-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    }
+    label[for='email']
+    {
+    font-size: 13px;
+    color: rgb(79, 79, 79);
+    }
+    
+    label[for='password']
+    {
+    font-size: 13px;
+    color: rgb(79, 79, 79);
+    
+    
+    }
+    
+    
+    input[type='email'],
+    input[type='password'] {
+    border: 1px solid rgb(205, 205, 205);
+    height: 45px;
+    padding: 10px 1.5rem; /* Adjusted padding */
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 10px;
+    
+    }
+    
+    
+    
+    .checkbox {
+    display: flex;
+    align-items: center;
+    }
+    
+    input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: rgb(48, 0, 160);
+    }
+    
+    .forgot-password-link {
+    margin-left: 80px;
+    color: rgb(28, 28, 229);
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 13px; /* Adjusted font size */
+    }
+    
+    
+    .forgot-password-link:hover {
+    color: darkblue;
+    }
+    
+    button {
+    border: none;
+    padding: 1rem;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: .5s;
+    background: rgb(48, 0, 160); /* Set the background color */
+    color: white; /* Set the text color */
+    }
+    
+    button:hover {
+    background: darkblue; /* Change the hover background color if needed */
+    color: white; /* Change the hover text color if needed */
+    }
+    
+    
+    
+    ::placeholder {
+    color: rgb(185, 184, 184);
+    font-size: 1rem;
+    }
+    label[for='account']{
+    font-size: 13px;
+    color: rgb(79, 79, 79);
+    
+    }
+    .Dont-have-account-yet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px; /* Adjusted margin top */
+    }
+    
+    .Dont-have-account-yet label {
+    font-size: 13px;
+    color: rgb(79, 79, 79);
+    }
+    .logo {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    max-width: 150px; /* Adjust the maximum width as needed */
+    }
