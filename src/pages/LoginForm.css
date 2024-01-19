@@ -146,3 +146,13 @@
     left: 30px;
     max-width: 150px; /* Adjust the maximum width as needed */
     }
+
+    .background{  position: absolute;
+        top: -px;
+        right: 0px;
+        max-width: 780px; 
+        bottom: -150px;
+        overflow: hidden;
+
+    }
+   
